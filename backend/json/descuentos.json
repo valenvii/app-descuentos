@@ -1,0 +1,19 @@
+[
+  {
+    "comercio": "Platerito",
+    "descuentos": [
+      {
+        "id": 1,
+        "porcentaje": 0.1,
+        "descripcion": "Descuento en cuadernos",
+        "duracionDias": 30
+      },
+      {
+        "id": 2,
+        "porcentaje": 0.2,
+        "descripcion": "Descuento en marcadores",
+        "duracionDias": 10
+      }
+    ]
+  }
+]

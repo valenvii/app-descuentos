@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "app-descuentos",
+    "slug": "app-descuentos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/uncoma.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/images/uncoma.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/uncoma.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/uncoma.png"
+    }
+  }
+}
