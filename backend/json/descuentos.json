@@ -6,13 +6,15 @@
         "id": 1,
         "porcentaje": 0.1,
         "descripcion": "Descuento en cuadernos",
-        "duracionDias": 30
+        "duracionDias": 30,
+        "valido": true
       },
       {
         "id": 2,
         "porcentaje": 0.2,
         "descripcion": "Descuento en marcadores",
-        "duracionDias": 10
+        "duracionDias": 10,
+        "valido": true
       }
     ]
   }

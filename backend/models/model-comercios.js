@@ -11,12 +11,16 @@ const obtenerJson = () => {
     return comerciosJSON;
 };
 
-const escribirJson = (comerciosJSON) => {
-    const jsonData = JSON.stringify(comerciosJSON);
+const cambiarImagen = (nombreComercio, nuevaImagen) => {
 
-    //Escribimos el archivo con comercios actualizado
-    fs.writeFileSync(archivoComercios, jsonData, 'utf-8');
+    const comerciosJSON = obtenerJson();
+
+    const comercio = comerciosJSON.find(unComercio => unComercio.nombre == nombreComercio);
+
+    if(comercio) {
+        comercio.imagen = nuevaImagen;
+        escribirJson(comerciosJSON);
+    }
 };
 
-
-module.exports = {obtenerJson};
+module.exports = {obtenerJson, cambiarImagen};

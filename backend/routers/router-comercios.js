@@ -13,4 +13,6 @@ router.get('/', (req, res) => {
     res.send(comerciosJSON);
 });
 
+
+
 module.exports = router;
