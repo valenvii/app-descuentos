@@ -3,6 +3,7 @@
       "nombre":"Platerito",
       "contacto": 2994021366,
       "imagen":"https://iili.io/FGZlDOJ.jpg",
-      "ubicacion":"Rivadavia 555"
+      "ubicacion":"Rivadavia 555",
+      "activo": true
     }
 ]
